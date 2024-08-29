@@ -1,0 +1,80 @@
+.main-content {
+    .headline {
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        padding: 100px 20px;
+    
+        .role,
+        .buttons,
+        .links {
+            margin-bottom: 10px;
+        }
+    
+        .image {
+            img {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+            }
+        }
+    
+        .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+            .line {
+                font-size: 16px;
+                color: gray;
+            }
+    
+            .name {
+                font-size: xxx-large;
+                font-weight: bold;
+            }
+    
+            .role {
+                font-size: large;
+                color: gray;
+                font-weight: bold;
+            }
+    
+            .buttons {
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+    
+                .border-button {
+                    background: white;
+                    border-radius: 20px;
+                    padding: 10px;
+                    border: 1px solid black;
+                }
+    
+                .full-button {
+                    background: rgb(61, 61, 61);
+                    border-radius: 20px;
+                    padding: 10px;
+                    border: 1px solid  rgb(61, 61, 61);
+                    color: white;
+                }
+            }
+    
+            .links {
+                display: flex;
+                gap: 10px;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+  
+  section {
+    padding: 80px 20px;
+  }
+}
