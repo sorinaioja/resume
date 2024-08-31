@@ -28,4 +28,13 @@
             }
         }
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+
+        ul {
+            margin-top: 20px; /* Add a gap between logo and navigation */
+        }
+    }
 }

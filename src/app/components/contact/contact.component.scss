@@ -1,0 +1,44 @@
+@import "../../shared/styles/styles.scss";
+
+#contact {
+    text-align: center;
+    padding: 80px 120px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 1px solid #ddd;
+            width: fit-content;
+
+            .contact-item {
+                display: flex;
+                align-items: center;
+                margin: 0 10px;
+
+                i {
+                    font-size: 1.2rem;
+                    margin-right: 8px;
+                    color: #000;
+                }
+
+                span {
+                    font-size: 1rem;
+                    color: #000;
+                    font-weight: 500;
+                }
+            }
+
+            .contact-item:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+    }
+}

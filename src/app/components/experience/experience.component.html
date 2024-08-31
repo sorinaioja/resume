@@ -1,0 +1,39 @@
+<section id="experience">
+    <div class="experience-container">
+        <div class="subtitle">Explore My</div>
+        <div class="title">Experience</div>
+        <div class="experience-cards">
+            <!-- Frontend Development -->
+            <div class="experience-card">
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li *ngFor="let skill of frontendSkills">
+                        <div class="item">
+                            <div class="icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="details">
+                                <div class="name">{{ skill.name }}</div>
+                                <div class="level">{{ skill.level }}</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Backend Development -->
+            <div class="experience-card">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li *ngFor="let skill of backendSkills">
+                        <div class="item">
+                            <div class="icon"><i class="fas fa-check-circle"></i></div>
+                            <div class="details">
+                                <div class="name">{{ skill.name }}</div>
+                                <div class="level">{{ skill.level }}</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
