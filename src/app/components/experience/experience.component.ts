@@ -13,16 +13,23 @@ export class ExperienceComponent {
   frontendSkills: Skill[] = [
     { name: 'HTML', level: 'Experienced' },
     { name: 'CSS', level: 'Experienced' },
-    { name: 'SASS', level: 'Intermediate' },
-    { name: 'JavaScript', level: 'Basic' },
-    { name: 'TypeScript', level: 'Basic' },
-    { name: 'Material UI', level: 'Intermediate' }
+    { name: 'TypeScript', level: 'Experienced' },
+    { name: 'Angular Framework', level: 'Experienced' },
+    { name: 'Bootstrap', level: 'Intermediate' },
+    { name: 'JavaScript', level: 'Intermediate' },
+    { name: 'RxJs', level: 'Experienced' },
+    { name: 'Responsive Design', level: 'Experienced' },
+    { name: 'Version Control/Git', level: 'Experienced' },
   ];
 
   backendSkills: Skill[] = [
-    { name: 'PostgreSQL', level: 'Basic' },
-    { name: 'Node JS', level: 'Intermediate' },
-    { name: 'Express JS', level: 'Intermediate' },
-    { name: 'Git', level: 'Intermediate' }
+    { name: '.NET Core/ASP.NET Core', level: 'Experienced' },
+    { name: '.NET Framework', level: 'Experienced' },
+    { name: 'REST API Development', level: 'Experienced' },
+    { name: 'OOP Concepts', level: 'Experienced' },
+    { name: 'LINQ', level: 'Intermediate' },
+    { name: 'Entity Framework', level: 'Experienced' },
+    { name: 'Microsoft SQL Server', level: 'Experienced' },
+    { name: 'Design patterns', level: 'Intermediate' },
   ];
 }
