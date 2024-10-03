@@ -1,8 +1,8 @@
 @import "../../shared/styles/styles.scss";
 
-#contact {
+#contact, #projects {
     text-align: center;
-    padding: 80px 120px;
+    padding: 200px 220px;
 
     @media (max-width: 768px) {
         padding: 40px 20px; 
