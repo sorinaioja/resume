@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  title = 'angular-dark-theme';
 
+  toggleTheme() {
+    document.body.classList.toggle('light-theme');
+    
+  }
 }

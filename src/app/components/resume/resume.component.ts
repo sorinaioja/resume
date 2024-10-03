@@ -16,8 +16,5 @@ import { ContactComponent } from '../contact/contact.component';
   styleUrl: './resume.component.scss'
 })
 export class ResumeComponent {
-
-  downloadCV(): void {
-
-  }
+  downloadCV(): void {}
 }

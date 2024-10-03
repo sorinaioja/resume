@@ -1,3 +1,35 @@
+/* Default Dark Theme */
+:root {
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --button-background-color: #333333;
+    --button-text-color: #FFFFFF;
+    --link-color: #BB86FC;
+}
+
+/* Light Theme */
+.light-theme {
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --button-background-color: #f0f0f0;
+    --button-text-color: #000000;
+    --link-color: #1a73e8;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

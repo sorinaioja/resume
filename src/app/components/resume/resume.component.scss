@@ -49,11 +49,11 @@
                 font-size: 14px;   
     
                 .border-button {
-                    background: white;
+                    background: var(--button-background-color);
                     border-radius: 20px;
                     padding: 10px;
-                    color: black;
-                    border: 1px solid black;
+                    color: var(--button-text-color);
+                    border: 1px solid var(--button-background-color);
                     cursor: pointer;
                     text-decoration: none;
                     font-family: inherit;
@@ -73,9 +73,18 @@
             .links {
                 display: flex;
                 gap: 10px;
-                img {
+                .icon {
                     width: 25px;
                     height: 25px;
+                    fill: var(--text-color);
+                }
+
+                .icon:hover {
+                    fill: var(--button-text-color); /* Optional: Change color on hover */
+                }
+
+                .dark-theme .icon {
+                    filter: invert(100%); /* Invert colors in dark theme */
                 }
             }
         }
