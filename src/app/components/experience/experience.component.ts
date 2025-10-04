@@ -11,10 +11,10 @@ import { Skill } from '../../models/skill.model';
 })
 export class ExperienceComponent {
   frontendSkills: Skill[] = [
-    { name: 'HTML', level: 'Experienced' },
-    { name: 'CSS', level: 'Experienced' },
     { name: 'TypeScript', level: 'Experienced' },
     { name: 'Angular Framework', level: 'Experienced' },
+    { name: 'HTML', level: 'Experienced' },
+    { name: 'CSS', level: 'Experienced' },
     { name: 'Bootstrap', level: 'Intermediate' },
     { name: 'JavaScript', level: 'Intermediate' },
     { name: 'RxJs', level: 'Experienced' },
@@ -26,10 +26,11 @@ export class ExperienceComponent {
     { name: '.NET Core/ASP.NET Core', level: 'Experienced' },
     { name: '.NET Framework', level: 'Experienced' },
     { name: 'REST API Development', level: 'Experienced' },
-    { name: 'OOP Concepts', level: 'Experienced' },
-    { name: 'LINQ', level: 'Intermediate' },
+    { name: 'LINQ', level: 'Experienced' },
+    { name: 'Azure DevOps CI/CD', level: 'Intermediate' },
     { name: 'Entity Framework', level: 'Experienced' },
     { name: 'Microsoft SQL Server', level: 'Experienced' },
+    { name: 'OOP Concepts', level: 'Experienced' },
     { name: 'Design patterns', level: 'Intermediate' },
   ];
 }
